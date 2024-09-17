@@ -16,23 +16,28 @@ This is a Proof of Concept (POC) for a homepage that fetches pane data from a Mo
 ## Getting Started
 
 ### 1. Clone the repository
-bash
+```bash
 git clone https://github.com/yourusername/ladingpagedesign.git
 cd poc-homepage
-
+```
 ### 2. Install dependencies
 Install the required dependencies using npm:
+```bash
 npm install
-
+```
 ### 3. Run the server
 Start the server using the following command:
+```bash
 node server.js
+```
 The server will start running at http://localhost:3000.
 
 ### 4. Run the HTML code
 using F5 or run
 
 ### Folder Structure
+- Following folder structure has been followed
+```bash
 C:.
 ├───assets                # Static assets like images, styles, etc.
 ├───node_modules          # Node.js dependencies
@@ -44,7 +49,9 @@ C:.
 ├───.env                  # Environment variables (not tracked in git)
 ├───package.json          # Project metadata and dependencies
 ├───server.js             # Main server entry point
+├───sample.html           # Frontend file
 └───README.md             # This README file
+```
 API Endpoints
 GET /api/panes
 Fetches pane data from the MongoDB collection.
